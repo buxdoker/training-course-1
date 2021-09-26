@@ -10,3 +10,16 @@
 6. Запустить локальный сервер для компилирования и отображения кода из директории src/
 
 # npm run start
+
+7. Основные команды git
+
+## git clone
+## git status
+## git add .
+
+## git commit -m "text of the commit" 
+or with adding new files:
+## git commit -am "text of the commit"
+
+## git pull
+## git push 
