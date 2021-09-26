@@ -23,3 +23,10 @@ or with adding new files:
 
 ## git pull
 ## git push 
+
+Создать новую ветку и перейти в нее
+## git checkout -b relevant-name-of-branch
+
+Перейти в уже существующую ветку (без параметра -b)
+
+## git checkout relevant-name-of-branch
