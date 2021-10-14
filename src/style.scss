@@ -1,0 +1,301 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+.header__item {
+    display: inline;
+    margin-left: 25px;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+    font-size: 16px;
+    color: #000;
+    overflow-x: hidden;
+    background-color: #ffffff;
+}
+
+.container {
+    margin: 50px auto;
+    padding: 115px 80px 90px;
+    background-color: #DEE1E6;
+    width: 100%;
+    max-width: 1600px;
+    height: 100%;
+    min-height: 1200px;
+}
+
+.all__main {
+    background: url(img/Desktop.png);
+}
+
+/*.all__main {
+    width: 100%;
+    max-width: 1440px;
+    height: 100%;
+    max-height: 990px;
+}*/
+
+.footer {
+    margin: 0 auto;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.header { 
+    position: relative;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 50;
+}
+
+.header__container {
+    display: flex;
+    min-height: 130px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+._container {
+    padding: 0 50px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+    max-width: 1440px;
+    height: 100%;
+    max-height: 865px;
+}
+
+.sidebar1 {
+    float: left;
+    width: 100%;
+    max-width: 275px;
+    height: 100%;
+    display: inline-block;
+    padding: 50px;
+}
+
+.list {
+    margin-bottom: 165px;
+}
+
+.sidebar1__list {
+    margin-bottom: 122px;
+}
+
+.sidebar1__link {
+    color: #3a3a3a;
+    line-height: 60px;
+    font-size: 22px;
+}
+
+.main__content {
+    margin: 115px 0 0 44px;
+    display: flex;
+    width: 100%;
+    max-width: 1075px;
+    height: 100%;
+    min-height: 865px;
+    //max-height: 865px;
+}
+
+.top-title {
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 32px;
+    color: #000;
+    opacity: 0.4;
+}
+
+.title {
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 62px;
+    line-height: 90px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.r {
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    opacity: 0.4;
+}
+
+.subtitle {  
+    font-family: Sofia Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 32px;
+    color: #000000;
+    opacity: 0.4;
+    margin-bottom: 50px;
+}
+
+.btn {
+    padding: 27px 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #030304;
+    margin-right: 25px;
+    border: 1px solid #000;
+}
+
+.bag,
+.watch {
+    margin-right: 10px;
+}
+
+.sidebar2 {
+    float: right;
+    width: 100%;
+    max-width: 90px;
+    height: 100%;
+    min-height: 865px;
+    display: inline-block;
+    padding: 64px 38px 0 33px;
+}
+.block__soc {
+    align-items: center;
+    left: 0;
+    bottom: 0;
+}
+
+.main__list {
+    margin: 365px 0;
+    align-items: center;
+}
+
+.block {
+    align-items: center;
+}
+
+.list2,
+.sidebar2__list {  
+    writing-mode: vertical-rl;
+    align-items: center;
+}
+.sidebar2__item {
+    transform: rotate(180deg);
+    display: inline-block;
+}
+.section__text {
+    display: inline-block;
+    width: 100%;
+    max-width: 525px;
+    height: 100%;
+    min-height: 320px;
+}
+.main__block {
+    width: 100%;
+    max-width: 525px;
+    height: 100%;
+    min-height: 200px;
+}
+
+.button {
+    width: 100%;
+    min-width: 395px;
+    height: 100%;
+    max-height: 72px;
+}
+
+.number {
+    display: inline-block;
+    position: relative;
+    float:right; 
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 430px;
+    letter-spacing: -0.02em;
+
+    color: #ECCA7B;
+
+    opacity: 0.2;
+ 
+}
+
+.nike {
+    display: inline-block;
+    position: relative;
+    float:right; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
