@@ -6,6 +6,7 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "devDependencies": {
     "@parcel/transformer-image": "^2.0.0-rc.0",
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
     "parcel": "latest"
   },
   "scripts": {
@@ -13,5 +14,8 @@
     "build": "parcel build"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.43.2"
+  }
 }
